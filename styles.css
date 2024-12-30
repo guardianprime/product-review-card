@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", serif;
+  background-color: hsl(30, 38%, 92%);
+}
+
+main {
+  box-shadow: 5px 5px 5px #777474;
+  width: 90%;
+  min-height: min-content;
+  height: 80%;
+  margin: 20px auto;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.parfum-img {
+  max-inline-size: 100%;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.second-div {
+  padding: 20px;
+}
+
+p {
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+}
+
+h1 {
+  font-family: "Fraunces", serif;
+}
+
+.description {
+  margin-top: 20px;
+}
+
+.prices {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.now {
+  color: hsl(158, 36%, 37%);
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: "Fraunces", serif;
+}
+
+.before {
+  text-decoration: line-through;
+  font-family: "Fraunces", serif;
+  margin-inline-start: 20px;
+  font-size: 1.1rem;
+}
+
+button {
+  width: 95%;
+  font-family: inherit;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+button span:last-of-type {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-inline-start: 10px;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 900px) {
+  main {
+    margin-top: 100px;
+    display: flex;
+    height: 70vh;
+    width: 80%;
+  }
+
+  .second-div {
+    padding: 50px;
+  }
+
+  main div {
+    width: 50%;
+  }
+
+  .parfum-img {
+    border-radius: 20px 0px 0px 20px;
+    height: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    width: 65%;
+    height: 68vh;
+    max-height: 70vh;
+  }
+}
+
+@media (min-width: 1400px) {
+  main {
+    width: 50%;
+    height: 65vh;
+    max-height: 70vh;
+  }
+}
