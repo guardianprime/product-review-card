@@ -81,6 +81,12 @@ button {
   margin: 20px auto;
 }
 
+button:hover,
+button:focus {
+  background-color: hsl(159, 27%, 23%);
+  cursor: pointer;
+}
+
 button span:last-of-type {
   font-size: 1.3rem;
   font-weight: 500;
@@ -101,7 +107,7 @@ button span:last-of-type {
     margin-top: 100px;
     display: flex;
     height: 70vh;
-    width: 80%;
+    width: 75%;
   }
 
   .second-div {
@@ -120,8 +126,8 @@ button span:last-of-type {
 
 @media (min-width: 1200px) {
   main {
-    width: 65%;
-    height: 68vh;
+    width: 60%;
+    height: 70vh;
     max-height: 70vh;
   }
 }
@@ -129,7 +135,7 @@ button span:last-of-type {
 @media (min-width: 1400px) {
   main {
     width: 50%;
-    height: 65vh;
+    height: 67vh;
     max-height: 70vh;
   }
 }
